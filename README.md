@@ -1,12 +1,11 @@
-**# Retail Sales Forecasting and Customer Analytics**
+# Retail Sales Forecasting and Customer Analytics
+
+
+**MSc Computer Science (Conversion) — Project Artefact**
 
 
 
-\*\*MSc Computer Science (Conversion) — Project Artefact\*\*
-
-
-
-\## **1. Project Overview**
+## 1. Project Overview
 
 
 
@@ -18,8 +17,7 @@ The main objective is to demonstrate how historical retail data can support busi
 
 
 
-\## **2. Software Requirements**
-
+## 2. Software Requirements
 
 
 \- Python 3 with Jupyter Notebook or Visual Studio Code
@@ -38,39 +36,29 @@ Python libraries and their versions should be checked against the notebook impor
 
 
 
-\## **3. Project Folder Structure**
+## 3. Project Folder Structure
+
+
+- **01_Raw_Data:** Nine original Olist CSV datasets.
+- **02_Cleaned_Data:** Prepared datasets, customer segmentation results and weekly sales forecasts.
+- **03_SQL:** SQL scripts, Python database-loading and validation scripts, and the SQLite database.
+- **04_Python_Analysis:** Five Jupyter notebooks covering data inspection, cleaning, exploratory analysis, customer segmentation and sales forecasting.
+- **05_PowerBI:** Interactive Power BI dashboard.
+- **06_Design:** Dashboard design documentation and wireframes.
+- **07_Testing:** Functional testing results and supporting screenshots.
+- **08_Report_Evidence:** Screenshots of SQL implementation, validation and customer segmentation results.
+- **09_Project_Management:** Project progress tracker.
 
 
 
-\- \*\*01\_Raw\_Data:\*\* Nine original Olist CSV datasets.
+## 4. Opening the Artefact
 
-\- \*\*02\_Cleaned\_Data:\*\* Prepared datasets, customer segmentation results and weekly sales forecasts.
 
-\- \*\*03\_SQL:\*\* SQL scripts, Python database-loading and validation scripts, and the SQLite database.
-
-\- \*\*04\_Python\_Analysis:\*\* Five Jupyter notebooks covering data inspection, cleaning, exploratory analysis, customer segmentation and sales forecasting.
-
-\- \*\*05\_PowerBI:\*\* Interactive Power BI dashboard.
-
-\- \*\*06\_Design:\*\* Dashboard design documentation and wireframes.
-
-\- \*\*07\_Testing:\*\* Functional testing results and supporting screenshots.
-
-\- \*\*08\_Report\_Evidence:\*\* Screenshots of SQL implementation, validation and customer segmentation results.
-
-\- \*\*09\_Project\_Management:\*\* Project progress tracker.
+### Power BI Dashboard
 
 
 
-\## **4. Opening the Artefact**
-
-
-
-\*\*Power BI Dashboard\*\*
-
-
-
-Open `05\_PowerBI/Retail\_Sales\_Analytics\_Dashboard.pbix` using Microsoft Power BI Desktop.
+Open `05_PowerBI/Retail_Sales_Analytics_Dashboard.pbix` using Microsoft Power BI Desktop.
 
 
 
@@ -92,7 +80,7 @@ The dashboard uses prepared transaction, customer segmentation and forecasting d
 
 
 
-\*\*Python Analysis\*\*
+### Python Analysis
 
 
 
@@ -120,7 +108,7 @@ The required datasets are located in `01\_Raw\_Data` and `02\_Cleaned\_Data`. Fi
 
 
 
-\*\*SQLite Database\*\*
+### SQLite Database
 
 
 
@@ -132,8 +120,7 @@ The database can be examined using a SQLite-compatible application or Python's b
 
 
 
-\## **5. Main Analytical Results**
-
+## 5. Main Analytical Results
 
 
 The prepared transaction dataset contains 96,478 delivered orders and approximately R$13.22 million in product sales, excluding freight.
@@ -148,7 +135,7 @@ Five weekly sales forecasting methods were compared. Holt's linear trend achieve
 
 
 
-\## **6. Testing and Evaluation**
+## 6. Testing and Evaluation
 
 
 
@@ -164,7 +151,7 @@ The solution was developed as a local analytical prototype. Its limitations incl
 
 
 
-\## **7. Data Source and Privacy**
+## 7. Data Source and Privacy
 
 
 
@@ -176,7 +163,7 @@ The dataset contains historical, anonymised e-commerce information. No additiona
 
 
 
-\## **8. Project Scope**
+## 8. Project Scope
 
 
 
